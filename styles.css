@@ -4,3 +4,553 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.btn{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5EEF6;   
+}
+.landingPage{
+    background-color: #E5EEF6;   
+    padding: 0em 10em;
+    margin: 0%;
+}
+/* Header Section */
+header{
+    padding: 1em 0em;
+    height: 15vh;
+}
+header .logo{
+    font-size: 2rem;
+}
+header .logo a{
+    text-decoration: none;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header .overText{
+    color: #23D3D3;
+}
+header .woodText{
+    color: #1E266D;
+}
+header nav ul{
+    display: flex;
+}
+header li{
+    color: #373F7E;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0em 1em;
+    font-size: 1rem;
+    cursor: pointer;
+}
+header .logInBtn{
+    background-color: #23D3D3;
+    color: #fafafa;
+    padding: 0.5em 1.5em;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.logInBtn:hover{
+    background-color: #1E266D;
+}
+header .createAccountBtn{
+    background-color: #1E266D;
+    color: #fafafa;
+    padding: 0.5em 1.5em;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.createAccountBtn:hover{
+    background-color: #2d389b;
+}
+
+/* Landing Page Section */
+.landingPageSection{
+    height: 85vh;
+}
+.summaryWrapper{
+    display: flex;
+    color: #373F7E;
+}
+.summaryWrapper .summary{
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+}
+.summary p{
+    margin: 0%;
+    padding: 0em 2em 4em 0em;
+}
+.summary p:first-child{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.summary p:nth-child(2){
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    line-height: 1em;
+}
+.summary p:nth-child(3){
+    color: #302F2F;
+}
+.summary a{
+    text-decoration: none;
+    color: #373F7E;
+    font-weight: bold;
+}
+.summary a:hover{
+    color: #23D3D3;
+}
+.investNowBtn{
+    margin-bottom: 2em;
+    background-color: #373F7E;
+    color: #fafafa;
+    padding: 0.75em 1.5em;
+    font-weight: bold;
+    font-size: 0.75rem;
+    border: none;
+    cursor: pointer;
+}
+.investNowBtn:hover{
+    background-color: #2d389b;
+}
+.summaryWrapper .profileImageDiv{
+    padding: 0%;
+    margin: 0%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://res.cloudinary.com/tamsay/image/upload/v1600550947/homeimg_1_whq4o7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.summaryCardSection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5em;
+}
+.summaryCard{
+    background-color: #fafafa;
+    width: 23.5%;
+    padding: 1em 1em;
+    border-radius: 5px;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75em;
+}
+.cardIcon{
+    margin-right: 0.75em;
+}
+.cardTitle{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* Who We Are Section */
+.whoWeAreSection{
+    background-color: #F8F9FA;   
+    padding: 5em 10em;
+    margin: 0%; 
+    display: flex;
+}
+.whoWeAreSection .imageDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageDiv img{
+    width: 100%;
+}
+.whoWeAreSection .mission{
+    width: 50%;
+    padding: 0em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #00387A;
+    color: #fafafa;
+}
+.mission small{
+    color: rgb(238, 231, 231);
+}
+.mission h2{
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+.mission p{
+    font-size: 0.875rem;
+}
+.mission .signature{
+
+}
+.signature .ceoName{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.signature .designation{
+    font-size: 0.75rem;
+}
+
+/* Credentials Section */
+.credentialsSection{
+    background-color: #E5EEF6;   
+    padding: 5em 10em;
+    margin: 0%;
+}
+.credentialCardsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.credentialCard{
+    width: 30%;
+    background-color: #fafafa;
+    padding: 1em 1.5em;
+    margin: 1.5em 0em;
+    min-height: 200px;
+    border-radius: 5px;
+}
+.credentialCard:hover{
+    background-color: #1E266D;
+    color: #fafafa;
+}
+.credentialCard:hover a{
+    color: #23D3D3;
+}
+.credentialCard h4{
+    margin-bottom: 0.75em;
+}
+.credentialCard p{
+    font-size: 0.875rem;
+    margin-bottom: 0.5em;
+}
+.credentialCard a{
+    font-size: 0.75rem;
+    text-decoration: 1px dotted;
+}
+
+/* Products Section */
+.productsSection{
+    background-color: #F8F9FA;   
+    padding: 5em 10em;
+    margin: 0%; 
+}
+.productsSection h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.productsCardWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.productsCard{
+    background-color: #F9F5F0;
+    width: 32.85%;
+    padding: 1em 1em;
+    border-radius: 5px;
+    min-height: 210px;
+}
+.productsCard h3{
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+.productsCardWrapper div:nth-child(1) h3{
+    color: #55AEF8;
+}
+.productsCardWrapper div:nth-child(2) h3{
+    color: #23D3D3;
+}
+.productsCardWrapper div:nth-child(3) h3{
+    color: #D2A7FA;
+}
+.productsCard p{
+    margin-bottom: 1em;
+    font-size: 0.875rem;
+}
+.productsCard span{
+    font-weight: bold;
+}
+.productsCard .overText{
+    color: #23D3D3;
+}
+.productsCard .woodText{
+    color: #1E266D;
+}
+.productsCard a{
+    font-size: 0.75rem;
+    color: #23D3D3;
+    font-weight: bold;
+}
+.productsCard a:hover{
+    color: #1E266D;
+}
+
+/* Testimonials Section */
+.testimonialsSection{
+    background-color: #E5EEF6;   
+    padding: 5em 10em;
+    margin: 0%;
+}
+.testimonialsSection h3{
+    font-size: 2.5rem;
+}
+.testimonialsSection small{
+    font-weight: bold;
+    color: #3a3535;
+}
+.testimonialsCardsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonialCard{
+    width: 30%;
+    background-color: #fafafa;
+    padding: 1em 1.5em;
+    margin: 1.5em 0em;
+    min-height: 300px;
+    border-radius: 5px;
+}
+.testimonialCard h4{
+    margin: 0%;
+    padding: 0%;
+    line-height: 8px;
+}
+.testimonialCard span{
+    font-size: 0.75rem;
+}
+.testimonialCard p{
+    font-size: 0.875rem;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+}
+.testimonialCard a{
+    font-size: 0.75rem;
+    text-decoration: 1px dotted;
+}
+
+/* Next Steps section */
+
+.nextStepsSection{
+    background-color: #F8F9FA;   
+    padding: 5em 10em;
+    margin: 0%; 
+}
+.nextStepsSection small{
+    color: rgb(61, 55, 55);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.nextStepsSection h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.nextStepsCardWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nextStepCard{
+    background-color: #F9F5F0;
+    width: 32.85%;
+    padding: 1em 1em;
+    border-radius: 5px;
+    min-height: 150px;
+}
+.nextStepCard h3{
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+.nextStepCard a{
+    margin-bottom: 1em;
+    font-size: 0.875rem;
+    color: #1E266D;
+    cursor: pointer;
+}
+.nextStepCard span{
+    font-weight: bold;
+}
+.nextStepCard .overText{
+    color: #23D3D3;
+}
+.nextStepCard .woodText{
+    color: #1E266D;
+}
+.nextStepCard a:hover{
+    color: #23D3D3;
+}
+
+/* Blog Section */
+.blogSection{
+    background-color: #E5EEF6;   
+    padding: 5em 10em;
+    margin: 0%;
+}
+.blogHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.blogHeader small{
+    font-weight: bolder;
+}
+.blogSection h2{
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+.blogpostWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.blogCard{
+    width: 32%;
+    background-color: white;
+    
+}
+.blogCard .imageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogCard .imageDiv img{
+    width: 100%;
+}
+.blogBody{
+    padding: 1em;
+}
+.blogBody h3{
+    margin-top: 0.75em;
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.blogBodyHeader small a{
+    text-decoration: none;
+    color: #373F7E;
+    font-weight: bold;
+}
+.blogBody p{
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+}
+
+.blogCard a:hover{
+    color: #23D3D3;
+}
+.readMore a{
+    color: gray;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+/* Footer Section */
+footer{
+    background-color: #00387A;
+    padding: 5em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer .fa{
+    margin: 0em 0.2em 0em 0.1em;
+}
+.mainFooterContent{
+    padding: 0em 10em;
+    display: flex;
+    justify-content: space-between;
+}
+.mainFooterContent h3{
+    font-size: 2.5rem;
+    margin: 0%;
+    padding-bottom: 0.25em;
+}
+.mainFooterContent h4{
+    font-size: 1.75rem;
+    margin: 0%;
+    padding-bottom: 0.5em;
+}
+.mainFooterContent > div{
+    width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+.mainFooterContent .socialMedia{
+    margin-top: 1em;
+}
+.mainFooterContent li{
+    list-style-type: none;
+}
+.section1 :nth-child(2){
+    margin-bottom: 1em;
+}
+.section2, .section3, .section4{
+    padding-top: 1em;
+}
+.section3 .products{
+    margin-top: 0.75em;
+}
+.section4 input{
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.section4 button{
+    margin-top: 10px;
+    width: fit-content;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #23D3D3;
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+.mainFooterContent a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fafafa;
+}
+footer .misc{
+    background-color: #1E266D;
+    padding: 1em 10em;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #d4c8c8;
+}
+footer .misc a{
+    text-decoration: none;
+    margin: 0em 1em;
+    color: #d4c8c8;
+}
+footer .misc a:hover{
+    color: #fff;
+}

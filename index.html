@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>OVERWOOD: Safe, High-Yield, Investments</title>
 </head>
 <body>
 
+    <div class="landingPage">
     <header>
         <nav>
-            <div>LOGO</div>
+            <div class="logo"><strong><a href="#"><span class="overText">OVER</span><span class="woodText">WOOD</span></a></strong></div>
 
             <div>
                 <ul>
@@ -24,36 +26,58 @@
             </div>
 
             <div>
-                <button>LOG IN</button>
-                <button>CREATE ACCOUNT</button>
+                <button class="logInBtn btn">LOG IN</button>
+                <button class="createAccountBtn btn">CREATE ACCOUNT</button>
             </div>
         </nav>
     </header>
 
-    <section>
-        <div>
-            <p>Earn 8 - 15% per annum</p>
-            <p>Safe, High-Yield Investments</p>
-            <p>We provide access to safe, high-yield investments for Africans (starting in Nigeria) with three products - <a href="http://">OVERWOOD PRIME</a>, <a href="http://">OVERWOOD DOLLAR</a>, & <a href="http://">OVERWOOD CHILD</a></p>
-            <button>INVEST NOW</button>
-        </div>
-        <div>
-            <img src="" alt="profileImage">
+    <section class="landingPageSection">
+        <div class="summaryWrapper">
+            <div class="summary">
+                <p>Earn 8 - 15% per annum</p>
+                <p>Safe, High-Yield Investments</p>
+                <p>We provide access to safe, high-yield investments for Africans (starting in Nigeria) with three products - <br><a href="http://">OVERWOOD PRIME</a>, <a href="http://">OVERWOOD DOLLAR</a>, & <a href="http://">OVERWOOD CHILD</a></p>
+                <button class="btn investNowBtn">INVEST NOW</button>
+            </div>
+            <div class="profileImageDiv">
+            </div>
         </div>
 
-        <section>
-            <div>Safety First.</div>
-            <div>Good Returns.</div>
-            <div>Daily Dividends.</div>
-            <div>Compound Gains.</div>
+        <section class="summaryCardSection">
+            <div class="summaryCard">
+                <div class="cardHeader">
+                    <span class="cardIcon"><img src="images/entypo_shield.svg" alt=""></span><span class="cardTitle">Safety First</span>
+                </div>
+                <p>Fund safety is our most important principle</p>
+            </div>
+            <div class="summaryCard">
+                <div class="cardHeader">
+                    <span class="cardIcon"><img src="images/bi_credit-card.svg" alt=""></span><span class="cardTitle">Good Returns</span>
+                </div>
+                <p>We achieve industry leading returns for our members</p>
+            </div>
+            <div class="summaryCard">
+                <div class="cardHeader">
+                    <span class="cardIcon"><img src="images/flat-color-icons_money-transfer.svg" alt=""></span><span class="cardTitle">Daily Dividends</span>
+                </div>
+                <p>You accrue dividends and gains on a daily basis.</p>
+            </div>
+            <div class="summaryCard">
+                <div class="cardHeader">
+                    <span class="cardIcon"><img src="images/ri_funds-box-fill.svg" alt=""></span><span class="cardTitle">Compound Gains</span>
+                </div>
+                <p>Compound interest model increases your yield.</p>
+            </div>
         </section>
     </section>
+    </div>
 
-    <section>
-        <div>
-            <img src="" alt="img2">
+    <section class="whoWeAreSection">
+        <div class="imageDiv">
+            <img src="images/overwood1.JPG" alt="img2">
         </div>
-        <div>
+        <div class="mission">
             <small>WHO WE ARE</small>
             <h2>Our Mission & Values</h2>
             <p>
@@ -65,57 +89,57 @@
                 We want to do it with integrity and a deep commitment that our client will never lose a dime of their hard-earned money.
                 <br><br>
             </p>
-            <div>
-                <img src="" alt="signature">
-                <p>Dr. Tayo Oyedeji</p>
-                <p>Founder & CEO</p>
+            <div class="signature">
+                <img src="images/signature.png" alt="signature">
+                <p class="ceoName">Dr. Tayo Oyedeji</p>
+                <p class="designation">Founder & CEO</p>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="credentialsSection">
         <small>OUR CREDENTIALS</small>
         <h2>6 Things You Should Know About Us</h2>
 
-        <div>
-            <div>
-                <i>Icon</i>
+        <div class="credentialCardsWrapper">
+            <div class="credentialCard">
+                <img src="images/carbon_inventory-management.svg" alt="">
                 <h4>How it Works</h4>
                 <p>We select the best and safest instruments in our market, diversify and adjust as needed, and distribute daily dividends.</p>
                 <a href="">Read more</a>
             </div>
-            <div>
-                <i>Icon</i>
+            <div class="credentialCard">
+                <img src="images/vscode-icons_folder-type-model.svg" alt="">
                 <h4>Our Investment Model</h4>
                 <p>We are focused primarily on the safety of the funds under our management. We are conservative and risk-averse.
                 </p>
                 <a href="">Read more</a>
             </div>
-            <div>
-                <i>Icon</i>
+            <div class="credentialCard">
+                <img src="images/codicon_server-process.svg" alt="">
                 <h4>Our Process</h4>
                 <p>The step-by-step process for starting, monitoring, and withdrawing your investment.</p>
                 <a href="">Read more</a>
 
             </div>
-            <div>
-                <i>Icon</i>
+            <div class="credentialCard">
+                <img src="images/whh_calculatoralt.svg" alt="">
                 <h4>Investment Calculator</h4>
                 <p>Our investment calculator simulates the daily growth of your funds.</p>
 
                 <a href="">Read more</a>
 
             </div>
-            <div>
-                <i>icon</i>
+            <div class="credentialCard">
+                <img src="images/el_group-alt.svg" alt="">
                 <h4>Our Board of Directors</h4>
                 <p>Meet our board whose mandate is to ensure that we put the clients’ interest first.</p>
                 <a href="">Read more</a>
 
             </div>
-            <div>
-                <i>icon</i>
-                <h4>Our Management Team</h4>>
+            <div class="credentialCard">
+                <img src="images/el_group.svg" alt="">
+                <h4>Our Management Team</h4>
                 <p>Meet our vibrant and disciplined team focused on delivering value to you.</p>
 
                 <a href="">Read more</a>
@@ -124,29 +148,29 @@
         </div>
     </section>
 
-    <section>
+    <section class="productsSection">
         <h2>Our Products</h2>
         
-        <div>
-            <div>
+        <div class="productsCardWrapper">
+            <div class="productsCard">
                 <h3>Overwood Prime</h3>
                 <p>
-                    <span>OVER</span><span>WOOD</span> PRIME suits investors who are looking for long-term growth and want to protect their investment against market fluctuations.OVERWOOD PRIME is focused on...
+                    <span class="overText">OVER</span><span class="woodText">WOOD</span> PRIME suits investors who are looking for long-term growth and want to protect their investment against market fluctuations.OVERWOOD PRIME is focused on...
                 </p>
                 <a href="">Read more</a>
             </div>
-            <div>
+            <div class="productsCard">
                 <h3>Overwood Dollar</h3>
                 <p>
-                    <span>OVER</span><span>WOOD</span> DOLLAR Investors can choose to subscribe with Naira or US Dollar but the funds will always be held in US Dollars. At maturity, you can choose to withdraw in ...
+                    <span class="overText">OVER</span><span class="woodText">WOOD</span> DOLLAR Investors can choose to subscribe with Naira or US Dollar but the funds will always be held in US Dollars. At maturity, you can choose to withdraw in ...
                 </p>
                 <a href="">Read more</a>
 
             </div>
-            <div>
+            <div class="productsCard">
                 <h3>Overwood Child</h3>
                 <p>
-                    <span>OVER</span><span>WOOD</span> CHILD was designed for investors who have young children and are looking to grow the funds earmarked for their children’s current or future school fees.
+                    <span class="overText">OVER</span><span class="woodText">WOOD</span> CHILD was designed for investors who have young children and are looking to grow the funds earmarked for their children’s current or future school fees.
                 </p>
                 <a href="">Read more</a>
 
@@ -154,135 +178,156 @@
         </div>
     </section>
 
-    <section>
-        testimonials
+    <section class="testimonialsSection">
+        <small>TESTIMONIALS</small>
+        <h3>What our clients say?</h3>
+        <div class="testimonialsCardsWrapper">
+
+            <div class="testimonialCard">
+                <h4>John Doe</h4>
+                <span>Lagos, Nigeria</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reiciendis, nisi ipsa molestiae atque excepturi vero maiores aspernatur velit quaerat! Perspiciatis fugit dolorum mollitia adipisci maiores! Incidunt corporis commodi iure!</p>
+                <a href="">Read more</a>
+            </div>
+            <div class="testimonialCard">
+                <h4>Jane Doe</h4>
+                <span>Lagos, Nigeria</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reiciendis, nisi ipsa molestiae atque excepturi vero maiores aspernatur velit quaerat! Perspiciatis fugit dolorum mollitia adipisci maiores! Incidunt corporis commodi iure!
+                </p>
+                <a href="">Read more</a>
+            </div>
+            <div class="testimonialCard">
+                <h4>John Doe</h4>
+                <span>Lagos, Nigeria</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reiciendis, nisi ipsa molestiae atque excepturi vero maiores aspernatur velit quaerat! Perspiciatis fugit dolorum mollitia adipisci maiores! Incidunt corporis commodi iure!</p>
+                <a href="">Read more</a>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <section class="nextStepsSection">
         <small>READY TO TAKE THE NEXT STEP?</small>
         <h2>Next Steps</h2>
         
-        <div>
-            <div>
+        <div class="nextStepsCardWrapper">
+            <div class="nextStepCard">
                 <h3>Invest Now</h3>
                 <a>
-                    Click here to start you <span>OVER</span><span>WOOD</span> investment.
+                    Click here to start your <span class="overText">OVER</span><span class="woodText">WOOD</span> investment.
                 </a>
             </div>
-            <div>
+            <div class="nextStepCard">
                 <h3>Request Details</h3>
                 <a>
-                    Click here to request <span>OVER</span><span>WOOD</span> prospectus
+                    Click here to request <span class="overText">OVER</span><span class="woodText">WOOD</span>  prospectus
                 </a>
-                <a href="">Read more</a>
-
             </div>
-            <div>
+            <div class="nextStepCard">
                 <h3>Contact Us</h3>
                 <a>
-                    Get in touch with <span>OVER</span><span>WOOD</span>
+                    Get in touch with <span class="overText">OVER</span><span class="woodText">WOOD</span> 
                 </a>
 
             </div>
         </div>
     </section>
 
-    <section>
-        <div>
+    <section class="blogSection">
+        <div class="blogHeader">
             <small>OUR BLOG</small>
             <small><a>View all post</a></small>
         </div>
         <h2>News from our blog</h2>
 
-        <div>
-            <div>
-                <div>
-                    <img src="" alt="img">
+        <div class="blogpostWrapper">
+            <div class="blogCard">
+                <div class="imageDiv">
+                    <img src="images/overwood2.JPG" alt="img">
                 </div>
-                <div>
-                    <div>
+                <div class="blogBody"> 
+                    <div class="blogBodyHeader">
                         <small>Mar 11, 2020</small> | <small><a href="">Financial Independence</a></small>
                     </div>
-                    <h3>Money Mananagement Tips (Saving & Investing)</h3>
+                    <h3><a>Money Mananagement Tips (Saving & Investing)</a></h3>
+                    <p>In continuation of our previous post on money management, developing these two habits can greatly improve</p>
+                    <small class="readMore"><a href="">Read more</a></small>
+                </div>
+            </div>
+            
+            <div class="blogCard">
+                <div class="imageDiv">
+                    <img src="images/overwood2.JPG" alt="img">
+                </div>
+                <div class="blogBody"> 
+                    <div class="blogBodyHeader">
+                        <small>Mar 11, 2020</small> | <small><a href="">Financial Independence</a></small>
+                    </div>
+                    <h3><a>Money Mananagement Tips (Saving & Investing)</a></h3>
                     <p>In continuation of our previous post on money management, developing these two habits can greatly improve</p>
                     <small><a href="">Read more</a></small>
                 </div>
             </div>
             
-            <div>
-                <div>
-                    <img src="" alt="img">
+            <div class="blogCard">
+                <div class="imageDiv">
+                    <img src="images/overwood2.JPG" alt="img">
                 </div>
-                <div>
-                    <div>
+                <div class="blogBody"> 
+                    <div class="blogBodyHeader">
                         <small>Mar 11, 2020</small> | <small><a href="">Financial Independence</a></small>
                     </div>
-                    <h3>Money Mananagement Tips (Saving & Investing)</h3>
+                    <h3><a>Money Mananagement Tips (Saving & Investing)</a></h3>
                     <p>In continuation of our previous post on money management, developing these two habits can greatly improve</p>
                     <small><a href="">Read more</a></small>
                 </div>
             </div>
-
-            <div>
-                <div>
-                    <img src="" alt="img">
-                </div>
-                <div>
-                    <div>
-                        <small>Mar 11, 2020</small> | <small><a href="">Financial Independence</a></small>
-                    </div>
-                    <h3>Money Mananagement Tips (Saving & Investing)</h3>
-                    <p>In continuation of our previous post on money management, developing these two habits can greatly improve</p>
-                    <small><a href="">Read more</a></small>
-                </div>
-            </div>
-
+            
         </div>
     </section>
 
     <footer>
-        <div>
-            <div>
+        <div class="mainFooterContent">
+            <div class=" wrapper section1">
                 <h3>OVERWOOD</h3>
                 <p>12 Maryland Crescent, Maryland Estate Lagos, Nigeria</p>
-                <p>>> <i>env icon</i> hello@overwood.ng</p>
-                <p>>> <i>phone icon</i>234-9037936601</p>
-                <div>
-                    <i>twitter</i>
-                    <i>insta</i>
-                    <i>linkedin</i>
-                    <i>youtube</i>
-                    <i>facebook</i>
+                <p>> <i class="fa fa-envelope"></i> hello@overwood.ng</p>
+                <p>> <i class="fa fa-phone"></i>234-9037936601</p>
+                <div class="socialMedia">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-facebook"></i>
                 </div>
             </div>
 
-            <div>
+            <div class=" wrapper section2">
                 <h4>Credentials</h4>
                 <ul>
-                    <li><a href="">>> Our Process</a></li>
-                    <li><a href="">>> Investment Model</a></li>
-                    <li><a href="">>> How it works</a></li>
-                    <li><a href="">>> Investment Calculator</a></li>
-                    <li><a href="">>> Log In</a></li>
+                    <li><a href="">> Our Process</a></li>
+                    <li><a href="">> Investment Model</a></li>
+                    <li><a href="">> How it works</a></li>
+                    <li><a href="">> Investment Calculator</a></li>
+                    <li><a href="">> Log In</a></li>
                 </ul>
             </div>
 
-            <div>
+            <div class=" wrapper section3">
                 <h4>Company</h4>
                 <ul>
-                    <li><a href="">>> Home</a></li>
-                    <li><a href="">>> Blog</a></li>
-                    <li><a href="">>> Contact</a></li>
+                    <li><a href="">> Home</a></li>
+                    <li><a href="">> Blog</a></li>
+                    <li><a href="">> Contact</a></li>
                 </ul>
-                <h4>Products</h4>
+                <h4 class="products">Products</h4>
                 <ul>
-                    <li><a href="">>> Overwood Prime</a></li>
-                    <li><a href="">>> Overwood Dollar</a></li>
-                    <li><a href="">>> Overwood Child</a></li>
+                    <li><a href="">> Overwood Prime</a></li>
+                    <li><a href="">> Overwood Dollar</a></li>
+                    <li><a href="">> Overwood Child</a></li>
                 </ul>
             </div>
 
-            <div>
+            <div class=" wrapper section4">
                 <h4>Subscribe</h4>
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email Address">
@@ -290,11 +335,17 @@
             </div>
         </div>
 
-        <div>
-            <span>&copy;2019 OVERWOOD.</span>
-            <span><a href="">Terms and Conditions</a></span>
-            <span><a href="">Privacy Policy</a></span>
-            <span><a href="">FAQs</a></span>
+        <div class="misc">
+            <div>
+                <span>&copy;2019 OVERWOOD.</span>
+            </div>
+            <div>
+                <span><a href="">Terms and Conditions</a></span>
+                <span><a href="">Privacy Policy</a></span>
+                <span><a href="">FAQs</a></span>
+            </div>
+            
+            
 
         </div>
     </footer>
