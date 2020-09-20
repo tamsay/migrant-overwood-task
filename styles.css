@@ -1740,8 +1740,9 @@ footer .misc{
     }
     .summaryWrapper .summary{
         width: 100%;
-        padding: 0%;
+        padding: 7em 0em 0em 0em;
         margin: 0%;
+        height: 80vh;
     }
     .summaryWrapper .profileImageDiv{
         display: none;
@@ -1778,7 +1779,7 @@ footer .misc{
     }
     .summaryCard{
         width: 100%;
-        padding: 0.5em 0.5em;
+        padding: 1em 1em;
         margin: 0.25em 0em;
         border-radius: 5px;
         min-height: 100px;
@@ -1791,7 +1792,7 @@ footer .misc{
         margin: 0em 0em 0.5em 0em;
     }
     .summaryCard p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .cardIcon{
         /* margin-right: 0.1em; */
@@ -1799,11 +1800,11 @@ footer .misc{
         margin: 0%;
     }
     .cardIcon img{
-        width: 20%;
+        width: 15%;
         margin: 0%;
     }
     .summaryCard .cardTitle{
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         width: 100%;
     }
     
@@ -1861,7 +1862,7 @@ footer .misc{
 .credentialCard{
     width: 100%;
     background-color: #fafafa;
-    padding: 1em 0.5em;
+    padding: 1em 1em;
     margin: 0.25em 0em;
     min-height: 200px;
     border-radius: 5px;
@@ -1878,10 +1879,10 @@ footer .misc{
 }
 .credentialCard h4{
     margin-bottom: 0.5em;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 .credentialCard p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 0.5em;
 }
 .credentialCard a{
@@ -2047,7 +2048,7 @@ footer .misc{
     width: 100%;
 }
 .blogBody{
-    padding: 1em 0.5em;
+    padding: 1em 1em;
 }
 .blogBody h3{
     margin-top: 0.75em;
